@@ -1,9 +1,9 @@
-ARG RELEASE=23.04
+ARG RELEASE=22.10
 
 FROM ubuntu:${RELEASE}
 
 #https://stackoverflow.com/questions/44438637/arg-substitution-in-run-command-not-working-for-dockerfile
-ARG RELEASE=23.04
+ARG RELEASE=22.10
 ARG ARCH=amd64
 ENV USER=megacmd
 ENV GROUP=megausers
